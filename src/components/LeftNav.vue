@@ -1,7 +1,7 @@
 <template>
   <div class="left_nav">
+    <div>收银<br>系统</div>
     <ul>
-      <li>POS</li>
       <li>
         <i class="icon iconfont icon-12"></i>
         <div>收银</div>
@@ -30,33 +30,36 @@
   </div>
 </template>
 <script>
-export default {}
+  export default {
+    name: 'LeftNav'
+  }
 </script>
-<style>
-.left_nav {
-  color: #fff;
-  font-size: 10px;
-  height: 100%;
-  background-color: #232122;
-  float: left;
-  width: 66px;
-}
-.iconfont {
-  font-size: 22px;
-}
-.left_nav ul li {
-  text-align: center;
-  padding: 15px 10px;
-  cursor: pointer;
-}
-.left_nav ul li:first-child {
-  background-color: #409eff;
-  height: 36px;
-  line-height: 36px;
-  font-weight: bold;
-  font-size: 24px;
-}
-.left_nav ul li:hover {
-  background: #323232;
-}
+
+<style scoped>
+  .left_nav {
+    background-color: #454545;
+    color: #ffffff;
+    float: left;
+    width: 68px;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+  .left_nav div:first-child {
+    padding: 15px 0px 15px 0px;
+    background-color: #efd728;
+    color: #303030;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .left_nav ul li {
+    padding: 15px 0px;
+  }
+  .left_nav ul li:hover {
+    background-color: #303030;
+    color: #efd728;
+  }
+  .iconfont {
+    font-size: 24px;
+  }
 </style>
