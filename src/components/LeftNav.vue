@@ -40,15 +40,14 @@
     background-color: #454545;
     color: #ffffff;
     float: left;
-    width: 68px;
+    width: 70px;
     height: 100%;
     text-align: center;
     cursor: pointer;
   }
   .left_nav div:first-child {
     padding: 15px 0px 15px 0px;
-    background-color: #efd728;
-    color: #303030;
+    background-color: #409eff;
     font-weight: bold;
     font-size: 16px;
   }
@@ -57,7 +56,7 @@
   }
   .left_nav ul li:hover {
     background-color: #303030;
-    color: #efd728;
+    color: #409eff;
   }
   .iconfont {
     font-size: 24px;
