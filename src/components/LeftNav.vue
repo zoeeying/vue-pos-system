@@ -39,13 +39,11 @@
   .left_nav {
     background-color: #454545;
     color: #ffffff;
-    float: left;
-    width: 70px;
     height: 100%;
     text-align: center;
     cursor: pointer;
   }
-  .left_nav div:first-child {
+  .left_nav > div:first-child {
     padding: 15px 0px 15px 0px;
     background-color: #409eff;
     font-weight: bold;
